@@ -40,6 +40,7 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 position: sticky;
 top: 0;
 z-index: 100;
+    
 }
 
 .navbar .container {
@@ -47,7 +48,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: nowrap;
+
 }
+
 
 .logo {
 font-size: 1.15rem;
@@ -73,9 +76,15 @@ flex-wrap: nowrap;
 align-items: center;
 }
 
+.nav-links a,
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:active {
+text-decoration: none;
+}
+
 .nav-links a {
 color: var(--dark-gray);
-text-decoration: none;
 font-size: 0.92rem;
 font-weight: 500;
 padding: 0.6rem 1rem;
