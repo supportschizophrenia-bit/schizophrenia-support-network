@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practitioner Directory - Schizophrenia Support Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Schizophrenia Support Network</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="understanding.html">Understanding Schizophrenia</a></li>
+                <li><a href="practitioners.html">Practitioner Directory</a></li>
+                <li><a href="support-community.html">Support Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Practitioner Directory</h1>
+                <p>Connect with compassionate, experienced practitioners across India</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container">
+                <h2>Find Support & Treatment</h2>
+                <p>
+                    Our directory includes psychiatrists, therapists, counselors, and support workers who are experienced with schizophrenia
+                    and committed to compassionate, holistic care. Practitioners may specialize in:
+                </p>
+                <ul>
+                    <li>Clinical support and medication management</li>
+                    <li>Psychotherapy and counseling</li>
+                    <li>Family therapy and support</li>
+                    <li>Peer support and peer-led recovery</li>
+                    <li>Holistic and complementary approaches</li>
+                    <li>Occupational and vocational support</li>
+                </ul>
+
+                <h2>Add a Practitioner to Our Directory</h2>
+                <p>
+                    Know a practitioner who should be listed? We welcome nominations and self-registrations from:
+                </p>
+                <ul>
+                    <li>Psychiatrists and mental health doctors</li>
+                    <li>Psychologists and therapists</li>
+                    <li>Counselors and social workers</li>
+                    <li>Peer support specialists and lived experience facilitators</li>
+                    <li>Holistic and alternative practitioners with experience supporting people with schizophrenia</li>
+                </ul>
+
+                <div class="cta-section">
+                    <h3>Register as a Practitioner or Nominate Someone</h3>
+                    <p>Fill out the form below or contact us directly if you'd like to be added to our directory.</p>
+                    <a href="https://forms.gle/YOUR_FORM_ID" class="btn btn-primary" target="_blank">Practitioner Registration Form</a>
+                    <p class="note">Replace the form link above with your actual Google Form URL</p>
+                </div>
+
+                <h2>Practitioner Database</h2>
+                <p>Our directory is growing! Practitioners will be displayed by location and specialty.</p>
+                <p class="note">Directory entries will appear here as practitioners register.</p>
+
+                <div class="directory-placeholder">
+                    <p>Check back soon for our growing list of registered practitioners across India.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Schizophrenia Support Network. All rights reserved.</p>
+            <p><a href="contact.html">Contact Us</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>
