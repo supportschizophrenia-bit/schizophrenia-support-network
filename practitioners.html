@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practitioner Directory - Schizophrenia Support Network</title>
+    <title>Practitioners - Schizophrenia Support Network</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,10 +12,10 @@
             <div class="logo">Schizophrenia Support Network</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="understanding.html">Understanding Schizophrenia</a></li>
-                <li><a href="practitioners.html">Practitioner Directory</a></li>
-                <li><a href="support-community.html">Support Community</a></li>
+                <li><a href="practitioners.html">Practitioners</a></li>
+                <li><a href="support-community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -24,52 +24,115 @@
     <main>
         <section class="page-header">
             <div class="container">
-                <h1>Practitioner Directory</h1>
-                <p>Connect with compassionate, experienced practitioners across India</p>
+                <h1>Find practitioners & supporters</h1>
+                <p>Connect with counselors, peer support specialists, and holistic practitioners who honor lived experience, emphasize psychosocial understanding, and prioritize your dignity and autonomy.</p>
             </div>
         </section>
 
         <section class="content">
             <div class="container">
-                <h2>Find Support & Treatment</h2>
-                <p>
-                    Our directory includes psychiatrists, therapists, counselors, and support workers who are experienced with schizophrenia
-                    and committed to compassionate, holistic care. Practitioners may specialize in:
-                </p>
-                <ul>
-                    <li>Clinical support and medication management</li>
-                    <li>Psychotherapy and counseling</li>
-                    <li>Family therapy and support</li>
-                    <li>Peer support and peer-led recovery</li>
-                    <li>Holistic and complementary approaches</li>
-                    <li>Occupational and vocational support</li>
-                </ul>
-
-                <h2>Add a Practitioner to Our Directory</h2>
-                <p>
-                    Know a practitioner who should be listed? We welcome nominations and self-registrations from:
-                </p>
-                <ul>
-                    <li>Psychiatrists and mental health doctors</li>
-                    <li>Psychologists and therapists</li>
-                    <li>Counselors and social workers</li>
-                    <li>Peer support specialists and lived experience facilitators</li>
-                    <li>Holistic and alternative practitioners with experience supporting people with schizophrenia</li>
-                </ul>
-
-                <div class="cta-section">
-                    <h3>Register as a Practitioner or Nominate Someone</h3>
-                    <p>Fill out the form below or contact us directly if you'd like to be added to our directory.</p>
-                    <a href="https://forms.gle/YOUR_FORM_ID" class="btn" target="_blank">Practitioner Registration Form</a>
-                    <p class="note">Replace the form link with your actual Google Form URL</p>
+                <div class="info-box">
+                    <p>Do you offer holistic, phenomenological, or peer-based support? Join our directory to connect with those seeking compassionate care.</p>
+                    <div class="register-button-container">
+                        <a href="https://forms.gle/YOUR_FORM_ID" class="btn btn-sm" target="_blank">Register here ↗</a>
+                    </div>
                 </div>
 
-                <h2>Practitioner Database</h2>
-                <p>Our directory is growing! Practitioners will be displayed by location and specialty.</p>
-                <p class="note">Directory entries will appear here as practitioners register.</p>
+                <div class="search-section">
+                    <div class="search-controls">
+                        <div class="search-control">
+                            <label for="search">Search by name or location</label>
+                            <input type="text" id="search" placeholder="Name or city..." />
+                        </div>
+                        <div class="search-control">
+                            <label for="region">Filter by region</label>
+                            <select id="region">
+                                <option>All locations</option>
+                                <option>North India</option>
+                                <option>South India</option>
+                                <option>East India</option>
+                                <option>West India</option>
+                            </select>
+                        </div>
+                        <div class="search-control">
+                            <label for="focus">Area of focus</label>
+                            <select id="focus">
+                                <option>All approaches</option>
+                                <option>Counseling</option>
+                                <option>Peer Support</option>
+                                <option>Psychiatry</option>
+                                <option>Holistic</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="directory-placeholder">
-                    <p>Check back soon for our growing list of registered practitioners across India.</p>
+                <div class="practitioner-grid">
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Maya Chen</div>
+                        <div class="practitioner-title">Phenomenological Counselor</div>
+                        <div class="practitioner-info">
+                            <span>📍 Mumbai, Maharashtra</span>
+                            <span>📧 <a href="mailto:maya.chen@example.com">maya.chen@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543210">+91 98765 43210</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
+
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Rajiv Kumar</div>
+                        <div class="practitioner-title">Peer Support Specialist</div>
+                        <div class="practitioner-info">
+                            <span>📍 Delhi, NCR</span>
+                            <span>📧 <a href="mailto:rajiv.kumar@example.com">rajiv.kumar@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543211">+91 98765 43211</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
+
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Dr. Anita Desai</div>
+                        <div class="practitioner-title">Holistic Psychiatrist</div>
+                        <div class="practitioner-info">
+                            <span>📍 Bangalore, Karnataka</span>
+                            <span>📧 <a href="mailto:anita.desai@example.com">anita.desai@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543212">+91 98765 43212</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
+
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Vikram Patel</div>
+                        <div class="practitioner-title">Open Dialogue Facilitator</div>
+                        <div class="practitioner-info">
+                            <span>📍 Pune, Maharashtra</span>
+                            <span>📧 <a href="mailto:vikram.patel@example.com">vikram.patel@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543213">+91 98765 43213</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
+
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Meera Reddy</div>
+                        <div class="practitioner-title">Somatic Therapist</div>
+                        <div class="practitioner-info">
+                            <span>📍 Hyderabad, Telangana</span>
+                            <span>📧 <a href="mailto:meera.reddy@example.com">meera.reddy@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543214">+91 98765 43214</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
+
+                    <div class="practitioner-card">
+                        <div class="practitioner-name">Arjun Singh</div>
+                        <div class="practitioner-title">Phenomenological Counselor</div>
+                        <div class="practitioner-info">
+                            <span>📍 Chennai, Tamil Nadu</span>
+                            <span>📧 <a href="mailto:arjun.singh@example.com">arjun.singh@example.com</a></span>
+                            <span>☎️ <a href="tel:+919876543215">+91 98765 43215</a></span>
+                        </div>
+                        <button class="btn btn-sm">Contact practitioner</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,12 +162,12 @@
             </div>
             <div class="footer-col">
                 <h4>CONTACT</h4>
-                <p>📧 <a href="mailto:support@schizophreniasupportnetwork.org">support@schizophreniasupportnetwork.org</a></p>
-                <p>☎️ <a href="tel:+919876543210">[Your Phone]</a></p>
+                <p>📧 <a href="mailto:support@schizophreniasupport.org">support@schizophreniasupport.org</a></p>
+                <p>☎️ <a href="tel:+919876543210">+91 (placeholder)</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Schizophrenia Support Network. All rights reserved.</p>
+            <p>&copy; 2026 Schizophrenia Support Network. All rights reserved.</p>
             <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
         </div>
     </footer>
