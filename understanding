@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Schizophrenia - Schizophrenia Support Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Schizophrenia Support Network</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="understanding.html">Understanding Schizophrenia</a></li>
+                <li><a href="practitioners.html">Practitioner Directory</a></li>
+                <li><a href="support-community.html">Support Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Understanding Schizophrenia</h1>
+                <p>Exploring lived experience, phenomenology, and holistic perspectives</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container">
+                <p class="intro-text">
+                    Understanding schizophrenia requires moving beyond medical labels to engage with the lived experience of those affected.
+                    Here, we gather resources from multiple perspectives to provide a fuller picture.
+                </p>
+
+                <h2>Resource Categories</h2>
+
+                <div class="resource-category">
+                    <h3>📖 Lived Experiences & Phenomenology</h3>
+                    <p>First-person accounts and phenomenological explorations that center the subjective experience of schizophrenia.</p>
+                    <p class="note">Coming soon: Articles, personal narratives, and reflections from people with lived experience.</p>
+                </div>
+
+                <div class="resource-category">
+                    <h3>🧠 Symptomological Perspectives</h3>
+                    <p>Understanding hallucinations, delusions, thought disorders, negative symptoms, and cognitive changes—informed by phenomenology rather than pure medicalization.</p>
+                    <p class="note">Coming soon: Articles exploring what these experiences are like from the inside.</p>
+                </div>
+
+                <div class="resource-category">
+                    <h3>👥 Psychosocial Understanding</h3>
+                    <p>How social factors, relationships, trauma, life circumstances, and community impact schizophrenia and recovery.</p>
+                    <p class="note">Coming soon: Articles on family dynamics, workplace considerations, stigma, and social support.</p>
+                </div>
+
+                <div class="resource-category">
+                    <h3>💊 Physiological & Somatic Perspectives</h3>
+                    <p>Understanding the neurobiological, biochemical, and physical dimensions of schizophrenia—without reducing the person to pathology.</p>
+                    <p class="note">Coming soon: Articles on neurotransmitters, brain function, physical health, and medication considerations.</p>
+                </div>
+
+                <div class="resource-category">
+                    <h3>🔄 Recovery & Healing</h3>
+                    <p>Models of recovery, healing strategies, and pathways toward self-fulfillment and meaning.</p>
+                    <p class="note">Coming soon: Articles on recovery models, resilience, and moving toward purpose.</p>
+                </div>
+
+                <div class="resource-category">
+                    <h3>👨‍👩‍👧 Resources for Families</h3>
+                    <p>Support and education for family members and caregivers seeking to understand and support loved ones.</p>
+                    <p class="note">Coming soon: Articles for families, guides on communication, and caregiver self-care.</p>
+                </div>
+
+                <h2>Our Approach to Resources</h2>
+                <p>
+                    We focus on:
+                </p>
+                <ul>
+                    <li><strong>Phenomenology:</strong> What is it actually like to experience schizophrenia?</li>
+                    <li><strong>Holism:</strong> Understanding the whole person, not just symptoms</li>
+                    <li><strong>Dignity:</strong> Resources that respect the person, not just the diagnosis</li>
+                    <li><strong>Diversity:</strong> Multiple perspectives, experiences, and approaches to understanding</li>
+                    <li><strong>Accessibility:</strong> Clear, jargon-free language where possible</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Schizophrenia Support Network. All rights reserved.</p>
+            <p><a href="contact.html">Contact Us</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>
