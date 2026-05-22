@@ -34,59 +34,66 @@ body {
 
 /* ===== NAVIGATION ===== */
 .navbar {
-    background-color: var(--white);
-    padding: 1.5rem 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+background-color: var(--white);
+padding: 1.2rem 0;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+position: sticky;
+top: 0;
+z-index: 100;
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
 }
 
 .logo {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--dark-gray);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+font-size: 1.15rem;
+font-weight: 600;
+color: var(--dark-gray);
+display: flex;
+align-items: center;
+gap: 0.5rem;
+white-space: nowrap;
 }
 
 .logo::before {
-    content: "♡";
-    color: var(--primary-orange);
-    font-size: 1.5rem;
+content: "♡";
+color: var(--primary-orange);
+font-size: 1.4rem;
 }
 
 .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    flex-wrap: nowrap;
-    align-items: center;
+display: flex;
+list-style: none;
+gap: 0.8rem;
+flex-wrap: nowrap;
+align-items: center;
 }
 
 .nav-links a {
-    white-space: nowrap;
-}
-}
-
-.nav-links a {
-    color: var(--dark-gray);
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
+color: var(--dark-gray);
+text-decoration: none;
+font-size: 0.92rem;
+font-weight: 500;
+padding: 0.6rem 1rem;
+border-radius: 999px;
+background-color: var(--light-beige);
+transition: all 0.3s ease;
+white-space: nowrap;
+border: 1px solid transparent;
 }
 
 .nav-links a:hover {
-    color: var(--primary-orange);
+background-color: var(--primary-orange);
+color: var(--white);
+transform: translateY(-2px);
+box-shadow: 0 4px 10px rgba(232, 149, 111, 0.25);
 }
+
+
 
 /* ===== HERO SECTION ===== */
 .hero {
