@@ -33,33 +33,23 @@ body {
 }
 
 /* ===== NAVIGATION ===== */
-.navbar {
-background-color: var(--white);
-padding: 1.2rem 0;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-position: sticky;
-top: 0;
-z-index: 100;
-    
-}
-
-.navbar .container {
+..navbar .container {
 display: flex;
-justify-content: space-between;
 align-items: center;
+justify-content: flex-start;
+gap: 4rem;
 flex-wrap: nowrap;
-
 }
-
 
 .logo {
-font-size: 1.15rem;
+font-size: 1.05rem;
 font-weight: 600;
 color: var(--dark-gray);
 display: flex;
 align-items: center;
 gap: 0.5rem;
 white-space: nowrap;
+flex-shrink: 0;
 }
 
 .logo::before {
@@ -102,6 +92,7 @@ transform: translateY(-2px);
 box-shadow: 0 4px 10px rgba(232, 149, 111, 0.25);
 }
 
+.
 
 
 /* ===== HERO SECTION ===== */
