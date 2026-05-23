@@ -42,15 +42,16 @@ padding-left: 1rem;
 }
 
 .logo {
-font-size: 1.05rem;
+font-size: 1.15rem;
 font-weight: 600;
 color: var(--dark-gray);
 display: flex;
 align-items: center;
 gap: 0.5rem;
 white-space: nowrap;
-flex-shrink: 0;
+margin-left: 0.3rem;
 }
+
 
 .logo::before {
 content: "♡";
@@ -62,8 +63,9 @@ font-size: 1.4rem;
 display: flex;
 list-style: none;
 gap: 0.8rem;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 align-items: center;
+margin-left: 0.5rem;
 }
 
 .nav-links a,
