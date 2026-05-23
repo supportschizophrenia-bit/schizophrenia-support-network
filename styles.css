@@ -33,11 +33,19 @@ body {
 }
 
 /* ===== NAVIGATION ===== */
+/* ===== NAVIGATION ===== */
+
+.navbar {
+background-color: var(--white);
+padding: 1.5rem 0;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
 .navbar .container {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 1rem;
+gap: 1.2rem;
 }
 
 .logo {
@@ -47,7 +55,13 @@ color: var(--dark-gray);
 display: flex;
 align-items: center;
 gap: 0.5rem;
-margin-left: 1rem;
+margin-left: 0.5rem;
+}
+
+.logo::before {
+content: "♡";
+color: var(--primary-orange);
+font-size: 1.3rem;
 }
 
 .nav-links {
@@ -61,18 +75,21 @@ width: 100%;
 
 .nav-links a {
 color: var(--dark-gray);
-font-size: 0.92rem;
+text-decoration: none;
+font-size: 0.9rem;
 font-weight: 500;
 padding: 0.6rem 1rem;
 border-radius: 999px;
 background-color: var(--light-beige);
 transition: all 0.3s ease;
 white-space: nowrap;
-border: 1px solid transparent;
 }
 
-
-
+.nav-links a:hover {
+background-color: var(--primary-orange);
+color: var(--white);
+transform: translateY(-2px);
+}
 
 /* ===== HERO SECTION ===== */
 .hero {
@@ -83,7 +100,7 @@ position: relative;
 overflow: hidden;
 }
 
-}
+
 
 .hero::before {
     content: "";
