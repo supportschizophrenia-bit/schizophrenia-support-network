@@ -99,11 +99,13 @@ box-shadow: 0 4px 10px rgba(232, 149, 111, 0.25);
 
 /* ===== HERO SECTION ===== */
 .hero {
-    background: linear-gradient(135deg, rgba(232, 149, 111, 0.08) 0%, rgba(244, 167, 125, 0.08) 100%);
-    padding: 6rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+background: linear-gradient(135deg, rgba(232, 149, 111, 0.08) 0%, rgba(244, 167, 125, 0.08) 100%);
+padding: 10rem 0 6rem;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
 }
 
 .hero::before {
