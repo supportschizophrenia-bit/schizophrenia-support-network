@@ -43,14 +43,14 @@ padding-right: 2rem;
 }
 
 .logo {
-font-size: 1.15rem;
+font-size: 1.1rem;
 font-weight: 600;
 color: var(--dark-gray);
 display: flex;
 align-items: center;
 gap: 0.5rem;
 white-space: nowrap;
-margin-left: 0.3rem;
+margin-left: 0.2rem;
 }
 
 
