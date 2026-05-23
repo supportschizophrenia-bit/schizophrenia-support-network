@@ -400,7 +400,7 @@ background: rgba(255,255,255,0.82);
 border-radius: 22px;
 padding: 2rem;
 
-```
+
 box-shadow:
     0 8px 24px rgba(0,0,0,0.04),
     0 2px 8px rgba(232,149,111,0.06);
@@ -412,18 +412,18 @@ flex-direction: column;
 justify-content: space-between;
 
 min-height: 250px;
-```
+
 
 }
 
 .channel:hover {
 transform: translateY(-4px);
 
-```
+
 box-shadow:
     0 14px 34px rgba(0,0,0,0.07),
     0 4px 14px rgba(232,149,111,0.10);
-```
+
 
 }
 
