@@ -1198,3 +1198,15 @@ font-weight: 600;
 
 
 }
+.visitor-counter {
+
+
+text-align: center;
+
+margin-top: 2rem;
+margin-bottom: 1rem;
+
+opacity: 0.85;
+
+
+}
