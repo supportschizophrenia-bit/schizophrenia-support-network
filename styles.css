@@ -1196,6 +1196,78 @@ font-weight: 600;
     align-items: flex-start;
 }
 
+    /* ===== LEARNING RESOURCES ===== */
+
+.resources-grid {
+
+
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+
+gap: 2rem;
+
+margin-top: 3rem;
+
+
+}
+
+.resource-card {
+
+
+background: rgba(255,255,255,0.75);
+
+padding: 2.5rem;
+
+border-radius: 28px;
+
+box-shadow:
+    0 10px 30px rgba(0,0,0,0.04);
+
+backdrop-filter: blur(10px);
+
+transition: all 0.3s ease;
+
+
+}
+
+.resource-card:hover {
+
+
+transform: translateY(-5px);
+
+
+}
+
+.resource-card h3 {
+
+
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+
+}
+
+.resource-card p {
+
+
+line-height: 1.8;
+
+margin-bottom: 1.5rem;
+
+
+}
+
+@media (max-width: 768px) {
+
+
+.resources-grid {
+    grid-template-columns: 1fr;
+}
+
+
+}
+
 
 }
 .visitor-counter {
