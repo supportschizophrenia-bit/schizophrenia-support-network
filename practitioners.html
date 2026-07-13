@@ -6,6 +6,60 @@
     <title>Practitioners - Schizophrenia Support Network</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<script>
+
+const search=document.getElementById("search");
+const region=document.getElementById("region");
+const focus=document.getElementById("focus");
+
+const cards=document.querySelectorAll(".practitioner-card");
+
+function filterPractitioners(){
+
+const searchText=search.value.toLowerCase();
+const selectedRegion=region.value;
+const selectedFocus=focus.value;
+
+cards.forEach(card=>{
+
+const text=card.innerText.toLowerCase();
+
+const country=card.dataset.country;
+
+const approaches=card.dataset.focus;
+
+const matchesSearch=text.includes(searchText);
+
+const matchesRegion=
+selectedRegion==="all" ||
+country===selectedRegion;
+
+const matchesFocus=
+selectedFocus==="all" ||
+approaches.includes(selectedFocus);
+
+card.style.display=
+(matchesSearch &&
+matchesRegion &&
+matchesFocus)
+?
+"flex"
+:
+"none";
+
+});
+
+}
+
+search.addEventListener("input",filterPractitioners);
+
+region.addEventListener("change",filterPractitioners);
+
+focus.addEventListener("change",filterPractitioners);
+
+</script>
+    
 <body>
 <!-- NAVBAR -->
 <nav class="navbar">
@@ -48,34 +102,41 @@
                         </div>
                         <div class="search-control">
                             <label for="region">Filter by region</label>
-                            <select id="region">
-                                <option>All locations</option>
-                                <option>North India</option>
-                                <option>South India</option>
-                                <option>East India</option>
-                                <option>West India</option>
-                            </select>
+                          <select id="region">
+
+<option value="all">All Countries</option>
+
+<option value="USA">United States</option>
+
+<option value="South Africa">South Africa</option>
+
+<option value="Spain">Spain</option>
+
+</select>
                         </div>
                         <div class="search-control">
                             <label for="focus">Area of focus</label>
                             <select id="focus">
-                                <option>All approaches</option>
-                                <option>Counseling</option>
-                                <option>Peer Support</option>
-                                <option>Psychiatry</option>
-                                <option>Holistic</option>
-                                <option>Functional Medicine</option>
-                                <option> Psychoanalysis</option>
-                                <option>CBT</option>
-                                <option>Creative arts</option>
-                                <option>Shaman</option>
-                                <option>Tapering off</option>
-                                <option>Orthomolecular psychiatry</option>
-                                <option>Ayurveda</option>
-                                <option>Homeopathy</option>
-                                <option>Chinesse medicine</option>
-                                <option>yoga therapist</option>
-                                <option>trauma therapist</option>
+                               <select id="focus">
+
+<option value="all">All Approaches</option>
+
+<option value="Psychodynamic">Psychodynamic</option>
+
+<option value="Psychiatry">Psychiatry</option>
+
+<option value="Clinical Psychology">Clinical Psychology</option>
+
+<option value="Life Coaching">Life Coaching</option>
+
+<option value="Trauma">Trauma</option>
+
+<option value="Homeopathy">Homeopathy</option>
+<option value="Peer Support">Peer Support</option>
+<option value="Ayuerveda">Ayurveda</option>
+<option value="Embodied Relational Therapist">Embodied Relational Therapist</option>
+
+</select>
                                 
 
 
@@ -98,8 +159,11 @@
 
 <!-- Adam -->
 
-<div class="practitioner-card">
+<div class="practitioner-card"
 
+data-country="USA"
+
+data-focus="Psychodynamic Trauma">
 <h3>Adam Weg</h3>
 
 <p class="practitioner-title">
@@ -136,7 +200,11 @@ Email
 
 <!-- Empowerment -->
 
-<div class="practitioner-card">
+<div class="practitioner-card"
+
+data-country="USA"
+
+data-focus="Life Coaching">
 
 <h3>Empowerment Life Skills Coaching</h3>
 
@@ -178,8 +246,11 @@ Website
 
 <!-- Mantanzi -->
 
-<div class="practitioner-card">
+<div class="practitioner-card"
 
+data-country="South Africa"
+
+data-focus="Clinical Psychology Trauma">
 <h3>Mantanzi Mcata</h3>
 
 <p class="practitioner-title">
@@ -220,8 +291,11 @@ Website
 
 <!-- Manuel -->
 
-<div class="practitioner-card">
+<div class="practitioner-card"
 
+data-country="Spain"
+
+data-focus="Psychiatry">
 <h3>Manuel López Arroyo</h3>
 
 <p class="practitioner-title">
@@ -261,8 +335,11 @@ Email
 
 <!-- Kristin -->
 
-<div class="practitioner-card">
+<div class="practitioner-card"
 
+data-country="USA"
+
+data-focus="Psychodynamic Trauma">
 <h3>Kristin Long</h3>
 
 <p class="practitioner-title">
