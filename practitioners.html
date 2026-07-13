@@ -8,58 +8,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<script>
-
-const search=document.getElementById("search");
-const region=document.getElementById("region");
-const focus=document.getElementById("focus");
-
-const cards=document.querySelectorAll(".practitioner-card");
-
-function filterPractitioners(){
-
-const searchText=search.value.toLowerCase();
-const selectedRegion=region.value;
-const selectedFocus=focus.value;
-
-cards.forEach(card=>{
-
-const text=card.innerText.toLowerCase();
-
-const country=card.dataset.country;
-
-const approaches=card.dataset.focus;
-
-const matchesSearch=text.includes(searchText);
-
-const matchesRegion=
-selectedRegion==="all" ||
-country===selectedRegion;
-
-const matchesFocus=
-selectedFocus==="all" ||
-approaches.includes(selectedFocus);
-
-card.style.display=
-(matchesSearch &&
-matchesRegion &&
-matchesFocus)
-?
-"flex"
-:
-"none";
-
-});
-
-}
-
-search.addEventListener("input",filterPractitioners);
-
-region.addEventListener("change",filterPractitioners);
-
-focus.addEventListener("change",filterPractitioners);
-
-</script>
     
 <body>
 <!-- NAVBAR -->
@@ -120,6 +68,10 @@ focus.addEventListener("change",filterPractitioners);
                             <select id="focus">
                                <select id="focus">
 
+<label for="focus">Area of focus</label>
+
+<select id="focus">
+
 <option value="all">All Approaches</option>
 
 <option value="Psychodynamic">Psychodynamic</option>
@@ -133,14 +85,16 @@ focus.addEventListener("change",filterPractitioners);
 <option value="Trauma">Trauma</option>
 
 <option value="Homeopathy">Homeopathy</option>
+
 <option value="Peer Support">Peer Support</option>
-<option value="Ayuerveda">Ayurveda</option>
-<option value="Embodied Relational Therapist">Embodied Relational Therapist</option>
+
+<option value="Ayurveda">Ayurveda</option>
+
+<option value="Embodied Relational Therapist">
+Embodied Relational Therapist
+</option>
 
 </select>
-                                
-
-
 
 
 
@@ -455,6 +409,55 @@ Website
 
 </footer>
 
+<script>
+
+const search=document.getElementById("search");
+const region=document.getElementById("region");
+const focus=document.getElementById("focus");
+
+const cards=document.querySelectorAll(".practitioner-card");
+
+function filterPractitioners(){
+
+const searchText=search.value.toLowerCase();
+const selectedRegion=region.value.toLowerCase();
+const selectedFocus=focus.value.toLowerCase();
+cards.forEach(card=>{
+
+const text=card.innerText.toLowerCase();
+
+const country=card.dataset.country.toLowerCase();
+const approaches=card.dataset.focus.toLowerCase();
+const matchesSearch=text.includes(searchText);
+
+const matchesRegion=
+selectedRegion==="all" ||
+country===selectedRegion;
+
+const matchesFocus=
+selectedFocus==="all" ||
+approaches.includes(selectedFocus);
+
+card.style.display=
+(matchesSearch &&
+matchesRegion &&
+matchesFocus)
+?
+"flex"
+:
+"none";
+
+});
+
+}
+
+search.addEventListener("input",filterPractitioners);
+
+region.addEventListener("change",filterPractitioners);
+
+focus.addEventListener("change",filterPractitioners);
+
+</script>
     
 </body>
 </html>
