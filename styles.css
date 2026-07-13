@@ -1436,6 +1436,59 @@ font-weight: 600;
     font-style: italic;
 }
 
+.practitioner-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+gap:2rem;
+margin-top:3rem;
+}
+
+.practitioner-card{
+
+background:white;
+
+padding:2rem;
+
+border-radius:22px;
+
+box-shadow:0 8px 24px rgba(0,0,0,.05);
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.practitioner-card h3{
+margin-top:0;
+margin-bottom:.5rem;
+}
+
+.practitioner-title{
+
+color:#E9964B;
+
+font-weight:600;
+
+margin-bottom:1rem;
+
+}
+
+.practitioner-card p{
+
+margin-bottom:.8rem;
+
+line-height:1.7;
+
+}
+
+.practitioner-card .btn{
+
+margin-top:auto;
+
+width:fit-content;
+
+}
 .visitor-counter {
 
 
