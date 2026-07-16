@@ -1489,6 +1489,12 @@ margin-top:auto;
 width:fit-content;
 
 }
+#form-status{
+    margin-top:1.5rem;
+    text-align:center;
+    font-weight:600;
+    color:#E8956F;
+}
 .visitor-counter {
 
 
