@@ -1495,6 +1495,28 @@ width:fit-content;
     font-weight:600;
     color:#E8956F;
 }
+
+.crisis-list{
+
+margin-top:1.5rem;
+
+}
+
+.crisis-list p{
+
+margin-bottom:1.3rem;
+
+line-height:1.7;
+
+font-size:0.92rem;
+
+}
+
+.crisis-list strong{
+
+color:#D15A5A;
+
+}
 .visitor-counter {
 
 
