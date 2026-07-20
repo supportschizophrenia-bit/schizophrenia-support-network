@@ -1517,6 +1517,67 @@ font-size:0.92rem;
 color:#D15A5A;
 
 }
+/* ==========================================
+   Reflection Cards
+========================================== */
+
+.reflection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.reflection-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    border-top: 5px solid #E9964B;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reflection-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+}
+
+.reflection-date {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.reflection-card h3 {
+    color: #263759;
+    margin: 0.5rem 0;
+}
+
+.reflection-subtitle {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.reflection-card p {
+    color: #444;
+    line-height: 1.7;
+}
+
+.reflection-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #E9964B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.reflection-card a:hover {
+    text-decoration: underline;
+}
+
 .visitor-counter {
 
 
