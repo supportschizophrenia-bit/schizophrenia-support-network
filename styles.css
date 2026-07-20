@@ -1578,6 +1578,63 @@ color:#D15A5A;
     text-decoration: underline;
 }
 
+.community-channels{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:2rem;
+    margin:3rem 0 4rem;
+}
+
+.channel{
+    background:#fff;
+    border-radius:14px;
+    padding:2rem;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    border-top:5px solid #E9964B;
+    transition:.3s ease;
+}
+
+.channel:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 30px rgba(0,0,0,.10);
+}
+
+.channel h3{
+    color:#263759;
+    margin-bottom:1rem;
+}
+
+.channel p{
+    color:#555;
+    line-height:1.8;
+}
+
+.meeting-info{
+    list-style:none;
+    padding:0;
+    margin:0 0 1.8rem;
+}
+
+.meeting-info li{
+    margin-bottom:.7rem;
+    color:#555;
+    position:relative;
+    padding-left:1.5rem;
+}
+
+.meeting-info li::before{
+    content:"✓";
+    color:#E9964B;
+    position:absolute;
+    left:0;
+    font-weight:bold;
+}
+
+.channel .btn{
+    margin-top:.5rem;
+    display:inline-block;
+}
+
 .visitor-counter {
 
 
