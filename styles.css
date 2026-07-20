@@ -1634,7 +1634,47 @@ color:#D15A5A;
     margin-top:.5rem;
     display:inline-block;
 }
+.reflection-content{
 
+    max-width:780px;
+    margin:5rem auto;
+
+    font-size:1.15rem;
+    line-height:2;
+
+    color:#444;
+}
+
+.reflection-content h1{
+
+    color:#263759;
+    margin-bottom:.5rem;
+
+}
+
+.reflection-meta{
+
+    color:#777;
+    font-style:italic;
+
+    margin-bottom:2rem;
+
+}
+
+.reflection-content hr{
+
+    margin:3rem 0;
+
+    border:none;
+    border-top:1px solid #ddd;
+
+}
+
+.reflection-content p{
+
+    margin-bottom:1.5rem;
+
+}
 .visitor-counter {
 
 
