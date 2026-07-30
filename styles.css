@@ -1786,14 +1786,16 @@ article p{
 }
 
 .poem p{
-    max-width:560px;
+    max-width:500px;
     margin:0 auto;
 
     text-align:center;
 
-    font-size:0.98rem;
-    line-height:1.45;
+    font-size:1rem;
+    line-height:1.75;
+
     font-style:italic;
+    color:var(--dark-gray);
 }
 .author-box{
     display:flex;
