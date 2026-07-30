@@ -1781,19 +1781,20 @@ article p{
 
 .poem h2{
     text-align:center;
-    margin-bottom:2rem;
+    margin-bottom:1.5rem;
     color:var(--dark-gray);
 }
 
 .poem p{
     max-width:520px;
     margin:0 auto;
-    line-height:2.4;
-    white-space:pre-line;
-    font-style:italic;
-    font-size:1.05rem;
-}
+    text-align:center;
 
+    line-height:1.6;
+
+    font-style:italic;
+    white-space:normal;
+}
 /* Author */
 
 .author-box{
