@@ -1702,7 +1702,8 @@ text-align:center;
 /* Narrow reading width */
 
 .narrow{
-    max-width:760px;
+    max-width:700px;
+}
     margin:0 auto;
 }
 
@@ -1719,7 +1720,7 @@ text-align:center;
 .author-line{
     margin-top:1.2rem;
     text-align:center;
-    color:var(--medium-gray);
+    color:var(--dark-gray);
     line-height:1.8;
     font-size:.95rem;
 }
@@ -1779,14 +1780,18 @@ article p{
 }
 
 .poem h2{
+    text-align:center;
     margin-bottom:2rem;
+    color:var(--dark-gray);
 }
 
 .poem p{
-    max-width:600px;
+    max-width:520px;
     margin:0 auto;
+    line-height:2.4;
+    white-space:pre-line;
     font-style:italic;
-    line-height:2.2;
+    font-size:1.05rem;
 }
 
 /* Author */
@@ -1795,9 +1800,10 @@ article p{
     display:flex;
     gap:2rem;
     align-items:center;
-    margin-top:5rem;
+    margin-top:7rem;
     padding-top:3rem;
     border-top:1px solid var(--light-gray);
+    
 }
 
 .author-photo{
@@ -1805,15 +1811,17 @@ article p{
 }
 
 .author-photo img{
-    width:140px;
-    height:140px;
+     width:150px;
+    height:150px;
     object-fit:cover;
     border-radius:50%;
 }
 
+
 .author-box h3{
     margin-top:0;
 }
+
 
 /* Mobile */
 
