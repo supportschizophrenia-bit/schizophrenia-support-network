@@ -1413,10 +1413,11 @@ font-weight: 600;
     margin: 0 auto;
 }
 
-.article-content p {
+.article-content article p {
     font-size: 1.08rem;
     line-height: 2;
     margin-bottom: 1.8rem;
+}
 }
 
 .article-date {
