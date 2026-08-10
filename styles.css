@@ -1888,6 +1888,183 @@ article p{
     }
 
 }
+/* =========================================
+   CRISIS BUDDY PAGE
+   ========================================= */
+
+/* Give the Crisis Buddy page a wider reading area */
+
+.crisis-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Comfortable reading width */
+
+.crisis-page p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+
+/* Lists */
+
+.crisis-page ul {
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.crisis-page li {
+    margin-bottom: 8px;
+}
+
+
+/* Section headings */
+
+.crisis-page h2 {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.crisis-page h3 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+
+/* =========================================
+   CRISIS CARDS
+   ========================================= */
+
+.crisis-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 30px 0 35px;
+}
+
+.crisis-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.crisis-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.crisis-card h2 {
+    text-align: left;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.crisis-card p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.crisis-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+/* =========================================
+   HOW IT WORKS
+   ========================================= */
+
+/* Six-step process looks better as 3 x 2 */
+
+.crisis-how-it-works .crisis-cards {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.crisis-how-it-works .crisis-card {
+    padding: 25px;
+}
+
+
+/* =========================================
+   CAN / CANNOT CARDS
+   ========================================= */
+
+.crisis-can-cannot .crisis-card {
+    min-height: 100%;
+}
+
+
+/* =========================================
+   CRISIS SUPPORT PLAN
+   ========================================= */
+
+.crisis-plan .crisis-cards {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* =========================================
+   IMPORTANT NOTE
+   ========================================= */
+
+.important-note {
+    margin-top: 25px;
+    padding: 18px 22px;
+    background: #faf7f3;
+    border-left: 3px solid #f19a5b;
+    border-radius: 6px;
+}
+
+
+/* =========================================
+   FINAL NOTE
+   ========================================= */
+
+.reflection-note {
+    margin: 45px auto;
+    padding: 25px 30px;
+    background: #faf7f3;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 800px) {
+
+    .crisis-page {
+        max-width: 100%;
+    }
+
+    .crisis-how-it-works .crisis-cards,
+    .crisis-plan .crisis-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .crisis-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .crisis-card {
+        padding: 24px;
+    }
+
+    .crisis-page p {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+
+}
 .visitor-counter {
 
 
