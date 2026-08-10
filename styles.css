@@ -2065,6 +2065,69 @@ article p{
     }
 
 }
+
+/* =========================================
+   CRISIS BUDDY – COMMUNITY PAGE
+========================================= */
+
+.crisis-buddy-intro {
+    padding: 45px 0;
+}
+
+.crisis-buddy-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 40px 45px;
+    border-left: 3px solid #f19a5b;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.crisis-buddy-content {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.section-label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #f19a5b;
+}
+
+.crisis-buddy-card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.crisis-buddy-card h3 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.crisis-buddy-card p {
+    line-height: 1.7;
+}
+
+.crisis-buddy-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .crisis-buddy-card {
+        padding: 30px 25px;
+    }
+
+}
 .visitor-counter {
 
 
