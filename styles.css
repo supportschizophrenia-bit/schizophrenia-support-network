@@ -1837,6 +1837,57 @@ article p{
     }
 
 }
+/* ================================
+   CRISIS BUDDY CARDS
+================================ */
+
+.crisis-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 35px 0;
+}
+
+.crisis-card {
+    background: #ffffff;
+    border: 1px solid #e3e7ec;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.crisis-card h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.crisis-card p {
+    margin-bottom: 15px;
+}
+
+.crisis-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.crisis-card li {
+    margin-bottom: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .crisis-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .crisis-card {
+        padding: 24px;
+    }
+
+}
 .visitor-counter {
 
 
