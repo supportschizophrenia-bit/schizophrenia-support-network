@@ -2128,6 +2128,67 @@ article p{
     }
 
 }
+/* =========================================
+   PHOTO ESSAYS
+========================================= */
+
+.photo-essay-content {
+    padding: 20px 0 60px;
+}
+
+.photo-essay-image {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.photo-essay-image img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    max-height: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.photo-essay-image figcaption {
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
+}
+
+.photo-essay-text {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.photo-essay-text p {
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+
+/* Author */
+
+.photo-essay-content .author-box {
+    max-width: 720px;
+    margin: 55px auto 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .photo-essay-image img {
+        max-height: none;
+    }
+
+    .photo-essay-text {
+        padding: 0 10px;
+    }
+
+}
 .visitor-counter {
 
 
