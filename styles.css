@@ -2188,6 +2188,127 @@ article p{
         padding: 0 10px;
     }
  }
+/* =========================================
+   PRACTITIONER DIRECTORY — HORIZONTAL CARDS
+========================================= */
+
+.practitioner-directory {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.practitioner-listing {
+    display: grid;
+    grid-template-columns: 42% 1fr;
+    gap: 2rem;
+    align-items: start;
+
+    background: #ffffff;
+    border: 1px solid #e8e1da;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.035);
+    transition: box-shadow 0.25s ease;
+}
+
+.practitioner-listing:hover {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+
+.practitioner-profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 0;
+}
+
+.practitioner-photo {
+    width: 105px;
+    height: 125px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.practitioner-basic h3 {
+    margin: 0 0 0.45rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.practitioner-basic p {
+    font-size: 0.84rem;
+    line-height: 1.6;
+    margin-bottom: 0.45rem;
+}
+
+.practitioner-title {
+    color: var(--primary-orange);
+    font-weight: 600;
+}
+
+.practitioner-credentials,
+.practitioner-location {
+    color: var(--medium-gray);
+}
+
+.practitioner-description {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.practitioner-description p {
+    font-size: 0.92rem;
+    line-height: 1.8;
+    margin: 0 0 1rem;
+}
+
+.practitioner-read-more {
+    display: inline-block;
+    color: #C77E57;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.practitioner-read-more:hover {
+    text-decoration: underline;
+}
+
+
+/* Mobile layout */
+
+@media (max-width: 700px) {
+
+    .practitioner-listing {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.2rem;
+    }
+
+    .practitioner-profile {
+        gap: 1rem;
+    }
+
+    .practitioner-photo {
+        width: 90px;
+        height: 110px;
+    }
+
+    .practitioner-description {
+        border-top: 1px solid #eee7e1;
+        padding-top: 1rem;
+    }
+
+}
+
 .visitor-counter {
     grid-column: 1 / -1;
     width: 100%;
