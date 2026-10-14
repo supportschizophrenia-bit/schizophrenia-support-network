@@ -2309,6 +2309,241 @@ article p{
 
 }
 
+
+/* =========================================
+   PRACTITIONER PROFILE PAGE
+========================================= */
+
+.practitioner-profile-page {
+    background: var(--cream-bg);
+}
+
+/* Profile header */
+
+.practitioner-profile-header {
+    background: #ffffff;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #e8e1da;
+    margin: 0;
+}
+
+.profile-header-layout {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.profile-main-photo {
+    width: 145px;
+    height: 145px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--primary-orange);
+    margin-bottom: 0.4rem;
+}
+
+.profile-header-info h1 {
+    font-size: 2rem;
+    color: var(--dark-gray);
+    margin: 0 0 0.5rem;
+}
+
+.profile-profession {
+    font-size: 1rem;
+    color: var(--dark-gray);
+    margin-bottom: 0.5rem;
+}
+
+.profile-location,
+.profile-languages {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+
+/* Main content layout */
+
+.practitioner-profile-content {
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.profile-content-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(250px, 0.9fr);
+    gap: 3rem;
+    max-width: 950px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.profile-main-content {
+    min-width: 0;
+}
+
+.profile-section {
+    margin: 0 0 2.8rem;
+}
+
+.profile-section h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
+.profile-section p,
+.profile-section li {
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+.profile-qualifications {
+    margin-left: 1.3rem;
+}
+
+.profile-qualifications li {
+    margin-bottom: 0.6rem;
+}
+
+
+/* Sidebar cards */
+
+.profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.profile-contact-card,
+.profile-details-card {
+    background: #ffffff;
+    padding: 1.6rem;
+    border-radius: 12px;
+    border: 1px solid #eee7e1;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.profile-contact-card h2,
+.profile-details-card h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+    text-align: left;
+}
+
+.profile-contact-card p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.profile-email-button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 1.2rem 0 1rem;
+}
+
+.profile-email-address {
+    font-size: 0.82rem !important;
+    overflow-wrap: anywhere;
+    margin-bottom: 0;
+}
+
+.profile-detail {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee7e1;
+}
+
+.profile-detail:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.profile-detail span {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--medium-gray);
+    margin-bottom: 0.25rem;
+}
+
+.profile-detail strong {
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
+
+/* Back link */
+
+.profile-back-link {
+    max-width: 950px;
+    margin: 2.5rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5ddd6;
+}
+
+.profile-back-link a {
+    color: var(--primary-orange);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.profile-back-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+
+    .profile-header-layout {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .profile-main-photo {
+        width: 125px;
+        height: 125px;
+    }
+
+    .profile-header-info h1 {
+        font-size: 1.7rem;
+    }
+
+    .profile-content-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .profile-sidebar {
+        margin-top: 0.5rem;
+    }
+
+    .profile-section {
+        margin-bottom: 2.2rem;
+    }
+
+    .profile-section h2 {
+        font-size: 1.35rem;
+    }
+
+    .profile-back-link {
+        margin-top: 1.5rem;
+    }
+
+}
+
 .visitor-counter {
     grid-column: 1 / -1;
     width: 100%;
